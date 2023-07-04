@@ -1,0 +1,47 @@
+.body{
+    max-width: 500px;
+    padding: 0 20px 5px 20px;
+    margin: 0 auto 30px auto;
+    background-color: aliceblue;
+    border: 3px solid #ccc;
+    
+    .user_info{
+        display: flex;
+        img{
+            margin-right: 20px;
+            height: 100px;
+            width: 100px;
+            border: none;
+            border-radius: 50%;
+        }
+    }
+    h2{
+        margin-bottom: 10px;
+    }
+    .button{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 50px;
+        button{
+            height: 30px;
+            background-color: #e1821d;
+            color: rgb(25, 25, 29);
+            font-size: 16px;
+            padding: 4px 5px;
+            border-radius: 5px;
+            font-weight: 600;
+            box-shadow: 1.5px 0px 0.75px 1.75px rgba(0,0,0,0.75);
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+            &:active{
+                box-shadow: 0.75px 0px 0.37px 0.875px rgba(0,0,0,0.75);
+            }
+            &:not(:last-child){
+            margin-right: 12px;
+            }
+            width: 120px;
+            margin-left: auto;
+        }
+    }
+}

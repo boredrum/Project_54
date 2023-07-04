@@ -1,0 +1,18 @@
+<div class="body">
+    <h2></h2>
+    <div class="user_info">
+        <img [src]="avatar">
+        <div class="user_info_text">
+            <h2>{{name}}</h2>
+            <p>{{status}}</p>
+            <br>
+            <p>The limit is 50 chars and it's {{charsetAmount}} chars here</p>
+        </div>
+    </div>
+    <div class="button">
+        <button type="button"
+        (click)="removeUser()"
+        >Remove user</button>
+    </div>
+</div>
+
